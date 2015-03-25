@@ -2,5 +2,5 @@
 
 int main()
 {
-	prob48();
+	prob28();
 }
