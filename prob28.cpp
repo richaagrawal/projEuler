@@ -17,5 +17,4 @@ void prob28()
 			cout << "i: " << i << "\tP: " << p << "\tQ: " <<  q <<"\tSum: " << sum << endl;
 		}
 	}
-	cin >> p;
 }

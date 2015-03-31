@@ -36,5 +36,4 @@ void prob22()
 	}
 	
 	cout << "Score =  " << finalScore << endl;
-	cin >> name;
 }

@@ -51,6 +51,5 @@ void prob18_67()
 	}
 
 	cout << maxV << endl;
-	cin >> maxV;
 
 }
