@@ -1,0 +1,28 @@
+#include "probs.h"
+
+void prob30()
+{
+	int num = 0;
+	int rem = 0;
+	int sumPowerFive = 0;
+	long long addSumPowerFive = 0;
+	for (int i = 1; i < 1000000; i++)
+	{
+		num = i;
+		rem = 10;
+		sumPowerFive = 0;
+		while (num > 9)
+		{
+			rem = num % 10;
+			num = num / 10;
+			sumPowerFive += pow(rem, 5);
+		}
+		sumPowerFive += pow(num, 5);
+		if (sumPowerFive == i)
+		{
+			printf("Numer = %d\t, Number^5 = %d\n", i, sumPowerFive);
+			addSumPowerFive += sumPowerFive;
+		}
+	}
+	printf("Sum of all power 5 digits: %d", addSumPowerFive);
+}
