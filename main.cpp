@@ -2,7 +2,7 @@
 
 int main()
 {
-	prob29();
+	prob34();
 	
 	int gc = getchar();
 }
