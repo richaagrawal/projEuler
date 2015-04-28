@@ -13,4 +13,5 @@ void prob28();
 void prob29();
 void prob30();
 void prob34();
+void prob36();
 void prob48();
