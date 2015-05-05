@@ -8,6 +8,7 @@ using namespace std;
 void prob18_67();
 void prob19();
 void prob22();
+void prob23();
 void prob24();
 void prob28();
 void prob29();
