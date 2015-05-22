@@ -1,19 +1,9 @@
+#pragma once
 #include "probs.h"
-#include <vector>s
+#include <vector>
 
 // Checks if the number is prime
 bool digitEven = false;
-bool isPrime(long no)
-{
-	long limit = sqrt(no);
-	for (int i = 2; i <= limit; i++)
-	{
-		if (no % i == 0)
-			return false;
-	}
-
-	return true;
-}
 
 // Generate circular numbers
 vector<int> getCircularNos(long no)
@@ -117,7 +107,6 @@ void prob35()
 			if (circPrimes == true)
 			{
 				noCircPrimes++;
-				cout << i << "\t";
 			}
 		}
 	}

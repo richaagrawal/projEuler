@@ -1,3 +1,4 @@
+#pragma once
 #include "probs.h"
 #include <vector>
 
@@ -52,5 +53,5 @@ void prob23()
 			sum_non_abundant += i;
 	}
 
-	cout << "Sum of all non-abundant sums" << sum_non_abundant << endl;
+	cout << "Sum of all non-abundant sums: " << sum_non_abundant << endl;
 }

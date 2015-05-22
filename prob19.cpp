@@ -1,3 +1,4 @@
+#pragma once
 #include "probs.h"
 
 void prob19()
@@ -22,6 +23,7 @@ void prob19()
 			if (currentDay == 0)
 				noSunday++;
 		}
-		std::cout << "Year: " << i << "\tNumber of Sundays: " << noSunday << std::endl;
+		
 	}
+	std::cout << "Number of Sundays: " << noSunday - 1<< std::endl;
 }

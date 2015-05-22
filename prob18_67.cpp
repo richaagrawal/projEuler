@@ -1,3 +1,4 @@
+#pragma once
 #include "probs.h"
 
 void prob18_67()

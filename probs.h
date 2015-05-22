@@ -1,19 +1,22 @@
+#pragma once
 #include <iostream>
 #include <fstream>
 #include <sstream>
 #include <algorithm>
+#include "util.h"
 
 using namespace std;
 
-void prob18_67();
-void prob19();
-void prob22();
-void prob23();
-void prob24();
-void prob28();
-void prob29();
-void prob30();
-void prob34();
-void prob35();
-void prob36();
-void prob48();
+void prob18_67();		// Maximum Path Sum
+void prob19();			// Counting Sundays
+void prob22();			// Names scores
+void prob23();			// Non-abundant sums
+void prob24();			// Lexicographic Permutations
+void prob27();			// Quadratic primes
+void prob28();			// Number spiral diagonals
+void prob29();			// Distinct powers
+void prob30();			// Digit fifth powers
+void prob34();			// Digit factorials
+void prob35();			// Circular primes
+void prob36();			// Double base palindromes
+void prob48();			// Self powers

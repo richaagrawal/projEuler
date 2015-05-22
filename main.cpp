@@ -1,11 +1,13 @@
+#pragma once
 #include "probs.h"
 #include <time.h>
 
 int main()
 {
 	clock_t startTime = clock();
-	prob35();
-	cout << "\n\n" << double(clock() - startTime) / (double)CLOCKS_PER_SEC * 1000 << " milli seconds." << endl;
+	prob27();
+	cout << "\n\nTotal run time: " << double(clock() - startTime) / (double)CLOCKS_PER_SEC * 1000 << " milli seconds." << endl;
 
-	int gc = getchar();
+	cout << "Hit enter to exit" << endl;
+	getchar();
 }

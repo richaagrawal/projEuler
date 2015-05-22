@@ -1,3 +1,4 @@
+#pragma once
 #include "probs.h"
 
 void prob48()
@@ -14,6 +15,8 @@ void prob48()
 		}
 		sum += p;
 		sum = sum % 1000000000000;
-		cout << "i: " << i << "\tP: " << p << "\tSum: " << sum << endl;
+		
 	}
+
+	cout << "Sum of self powers: " << sum << endl;
 }

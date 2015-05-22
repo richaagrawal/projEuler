@@ -1,3 +1,4 @@
+#pragma once
 #include "probs.h"
 
 void prob30()
@@ -20,9 +21,8 @@ void prob30()
 		sumPowerFive += pow(num, 5);
 		if (sumPowerFive == i)
 		{
-			printf("Numer = %d\t, Number^5 = %d\n", i, sumPowerFive);
 			addSumPowerFive += sumPowerFive;
 		}
 	}
-	printf("Sum of all power 5 digits: %d", addSumPowerFive);
+	printf("Sum of all power 5 digits: %d", addSumPowerFive - 1);
 }

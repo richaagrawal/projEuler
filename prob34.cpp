@@ -1,15 +1,6 @@
+#pragma once
 #include "probs.h"
 #include <vector>
-
-double factorial(double no)
-{
-	double fact = 1;
-	for (double i = 2; i <= no; i++)
-	{
-		fact *= i;
-	}
-	return fact;
-}
 
 void prob34()
 {

@@ -1,12 +1,7 @@
+#pragma once
 #include "probs.h"
 
 int perm[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-void swap(int i, int j)
-{
-	int temp = perm[i];
-	perm[i] = perm[j];
-	perm[j] = temp;
-}
 
 void prob24()
 {
@@ -23,13 +18,16 @@ void prob24()
 			i--;
 		while (perm[j - 1] <= perm[i-1])
 			j--;
-		swap(i - 1, j - 1);
+
+		int a = 5;
+		int b = 3;
+		swap(&perm[i-1], &perm[j-1]);
 
 		i++;
 		j = noElem;
 		while (i < j)
 		{
-			swap(i - 1, j - 1);
+			swap(&perm[i - 1], &perm[j - 1]);
 			i++, j--;
 		}
 

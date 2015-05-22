@@ -1,3 +1,4 @@
+#pragma once
 #include "probs.h"
 
 void prob28()
@@ -14,7 +15,7 @@ void prob28()
 		{
 			q += 2 * k;
 			sum += q;
-			cout << "i: " << i << "\tP: " << p << "\tQ: " <<  q <<"\tSum: " << sum << endl;
 		}
 	}
+	cout << "Sum: " << sum << endl;
 }
