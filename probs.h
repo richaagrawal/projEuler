@@ -12,6 +12,7 @@ void prob19();			// Counting Sundays
 void prob22();			// Names scores
 void prob23();			// Non-abundant sums
 void prob24();			// Lexicographic Permutations
+void prob26();			// Reciprocal sums
 void prob27();			// Quadratic primes
 void prob28();			// Number spiral diagonals
 void prob29();			// Distinct powers
