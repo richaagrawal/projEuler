@@ -17,6 +17,7 @@ void prob27();			// Quadratic primes
 void prob28();			// Number spiral diagonals
 void prob29();			// Distinct powers
 void prob30();			// Digit fifth powers
+void prob31();			// Coin sums
 void prob34();			// Digit factorials
 void prob35();			// Circular primes
 void prob36();			// Double base palindromes
