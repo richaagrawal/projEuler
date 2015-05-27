@@ -16,9 +16,9 @@ void prob30()
 		{
 			rem = num % 10;
 			num = num / 10;
-			sumPowerFive += pow(rem, 5);
+			sumPowerFive += (int)pow(rem, 5);
 		}
-		sumPowerFive += pow(num, 5);
+		sumPowerFive += (int)pow(num, 5);
 		if (sumPowerFive == i)
 		{
 			addSumPowerFive += sumPowerFive;

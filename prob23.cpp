@@ -35,10 +35,10 @@ void prob23()
 		}
 	}
 
-	for (int i = 0; i < abundant_nos.size(); i++)
+	for (unsigned int i = 0; i < abundant_nos.size(); i++)
 	{
 		int n = abundant_nos.at(i);
-		for (int j = i; j < abundant_nos.size(); j++)
+		for (unsigned int j = i; j < abundant_nos.size(); j++)
 		{
 			int sum_abundant = n + abundant_nos.at(j);
 			if (sum_abundant < 28123)

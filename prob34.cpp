@@ -15,11 +15,11 @@ void prob34()
 		factDigits = 0;
 		while (div > 9)
 		{
-			rem = (long long)div % 10;
+			rem = (double)((long long)div % 10);
 			div = div / 10;
 			factDigits += factorial(rem);
 		}
-		factDigits += factorial((long long)div);
+		factDigits += factorial(div);
 
 		if (factDigits == no)
 			factNo += factDigits;

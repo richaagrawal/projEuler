@@ -98,7 +98,7 @@ void prob35()
 				digitEven = false;
 				continue;
 			}
-			for (int j = 0; j < circNos.size(); j++)
+			for (unsigned int j = 0; j < circNos.size(); j++)
 			{
 				if (!isPrime(circNos.at(j)))
 					circPrimes = false;

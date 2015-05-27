@@ -27,11 +27,11 @@ void prob22()
 	sort(names.begin(), names.end());
 
 
-	for (int i = 0; i < names.size(); i++)
+	for (unsigned int i = 0; i < names.size(); i++)
 	{
 		name = names.at(i);
 		score = 0;
-		for (int j = 0; j < name.length(); j++)
+		for (unsigned int j = 0; j < name.length(); j++)
 			score += name[j] - 64;
 		finalScore += score * (i+1);
 	}

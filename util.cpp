@@ -2,7 +2,7 @@
 
 bool isPrime(long no)
 {
-	long limit = sqrt(no);
+	int limit = (int)sqrt(no);
 	for (int i = 2; i <= limit; i++)
 	{
 		if (no % i == 0)
