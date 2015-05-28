@@ -21,4 +21,5 @@ void prob31();			// Coin sums
 void prob34();			// Digit factorials
 void prob35();			// Circular primes
 void prob36();			// Double base palindromes
+void prob40();			// Champernowne's constant
 void prob48();			// Self powers

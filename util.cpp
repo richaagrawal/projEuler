@@ -50,3 +50,21 @@ void swap(int *i, int *j)
 	*i = *j;
 	*j = temp;
 }
+
+
+int getDigit(long no, int pos)
+{
+	int digit = 0;
+
+	vector<int> digits;
+	while (no > 9)
+	{	
+		digits.push_back(no % 10);
+		no = no / 10;
+	}
+	digits.push_back(no);
+
+	digit = digits.at(digits.size() - pos);
+
+	return digit;
+}
