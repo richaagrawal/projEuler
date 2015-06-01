@@ -91,7 +91,9 @@
     <ClCompile Include="prob34.cpp" />
     <ClCompile Include="prob35.cpp" />
     <ClCompile Include="prob36.cpp" />
+    <ClCompile Include="prob37.cpp" />
     <ClCompile Include="prob40.cpp" />
+    <ClCompile Include="prob42.cpp" />
     <ClCompile Include="prob48.cpp" />
     <ClCompile Include="util.cpp" />
   </ItemGroup>
