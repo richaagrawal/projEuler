@@ -2,13 +2,14 @@
 
 bool isPrime(long no)
 {
+	if (no == 1)
+		return false;
 	int limit = (int)sqrt(no);
 	for (int i = 2; i <= limit; i++)
 	{
 		if (no % i == 0)
 			return false;
 	}
-
 	return true;
 }
 
