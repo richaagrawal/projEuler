@@ -24,4 +24,5 @@ void prob36();			// Double base palindromes
 void prob37();			// Truncatable primes
 void prob40();			// Champernowne's constant
 void prob42();			// Coded triangle numbers
+void prob45();			// Triangular, pentagonal and hexagonal
 void prob48();			// Self powers
