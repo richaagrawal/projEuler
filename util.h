@@ -12,3 +12,5 @@ double factorial(double no);
 void swap(int *i, int *j);
 
 int getDigit(long no, int pos);
+
+long gcd(long, long);

@@ -69,3 +69,37 @@ int getDigit(long no, int pos)
 
 	return digit;
 }
+
+// Have to check this
+long gcd(long a, long b)
+{
+	vector<int> divA, divB;
+	for (int i = 1; i <= a; i++)
+	{
+		if (a % i == 0)
+			divA.push_back(i);
+	}
+
+	for (int i = 1; i <= b; i++)
+	{
+		if (b % i == 0)
+			divB.push_back(i);
+	}
+
+	int ai = 0, bi = 0;
+	int div = 1;
+	for (; ai < divA.size() && bi < divB.size();)
+	{
+		if (divA.at(ai) == divB.at(bi))
+		{
+			div = divA.at(ai);
+			ai++;
+			bi++;
+		}
+		else if (divA.at(ai) < divB.at(bi))
+			ai++;
+		else
+			bi++;
+	}
+	return div;
+}

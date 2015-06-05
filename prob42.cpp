@@ -14,7 +14,6 @@ void prob42()
 	string line;
 	char v;
 	int val = 0;
-	int isTriangleWord;
 	int noTriangleWords = 0;
 	while (getline(file, line , ','))
 	{
