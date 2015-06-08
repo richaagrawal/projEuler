@@ -18,6 +18,7 @@ void prob28();			// Number spiral diagonals
 void prob29();			// Distinct powers
 void prob30();			// Digit fifth powers
 void prob31();			// Coin sums
+void prob32();			// Pandigital products
 void prob33();			// Digit cancelling fractions
 void prob34();			// Digit factorials
 void prob35();			// Circular primes
