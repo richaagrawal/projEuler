@@ -103,3 +103,26 @@ long gcd(long a, long b)
 	}
 	return div;
 }
+
+
+bool isPandigital(long no)
+{
+	int digits[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+	int rem;
+	int noDigits = 0;
+	while (no > 0)
+	{
+		rem = no % 10 - 1;
+		if (rem == -1 || digits[rem] != 0)
+			return false;
+		digits[rem]++;
+		no /= 10;
+		noDigits++;
+	}
+	for (int i = 0; i < noDigits; i++)
+	{
+		if (digits[i] != 1)
+			return false;
+	}
+	return true;
+}

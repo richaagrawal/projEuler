@@ -14,3 +14,5 @@ void swap(int *i, int *j);
 int getDigit(long no, int pos);
 
 long gcd(long, long);
+
+bool isPandigital(long no);
