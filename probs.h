@@ -24,6 +24,7 @@ void prob34();			// Digit factorials
 void prob35();			// Circular primes
 void prob36();			// Double base palindromes
 void prob37();			// Truncatable primes
+void prob38();			// Pandigital multiples
 void prob39();			// Integer right triangles
 void prob40();			// Champernowne's constant
 void prob41();			// Pandigital primes
