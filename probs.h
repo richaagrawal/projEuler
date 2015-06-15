@@ -31,5 +31,6 @@ void prob41();			// Pandigital primes
 void prob42();			// Coded triangle numbers
 void prob45();			// Triangular, pentagonal and hexagonal
 void prob48();			// Self powers
+void prob50();			// Consecutive prime sums
 void prob52();			// Permuted multiples
 void prob53();			// Combinatoric selection

@@ -101,6 +101,7 @@
     <ClCompile Include="prob42.cpp" />
     <ClCompile Include="prob45.cpp" />
     <ClCompile Include="prob48.cpp" />
+    <ClCompile Include="prob50.cpp" />
     <ClCompile Include="prob52.cpp" />
     <ClCompile Include="prob53.cpp" />
     <ClCompile Include="util.cpp" />
