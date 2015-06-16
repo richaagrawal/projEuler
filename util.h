@@ -13,6 +13,8 @@ void swap(int *i, int *j);
 
 int getDigit(long no, int pos);
 
-long gcd(long, long);
+long gcd(long a, long b);
 
 bool isPandigital(long no);
+
+bool isSquare(long no);

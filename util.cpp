@@ -126,3 +126,13 @@ bool isPandigital(long no)
 	}
 	return true;
 }
+
+bool isSquare(long no)
+{
+	int hexDigits = no & 0xF;
+	if (!(hexDigits == 0x0 || hexDigits == 0x1 || hexDigits == 0x4 || hexDigits == 0x9))
+		return false;
+	if ((int)sqrt(no)*(int)sqrt(no) == no)
+		return true;
+	return false;
+}
