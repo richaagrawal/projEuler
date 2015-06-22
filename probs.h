@@ -29,6 +29,7 @@ void prob39();			// Integer right triangles
 void prob40();			// Champernowne's constant
 void prob41();			// Pandigital primes
 void prob42();			// Coded triangle numbers
+void prob43();			// Substring divisibility
 void prob45();			// Triangular, pentagonal and hexagonal
 void prob46();			// Goldbach's other conjecture
 void prob48();			// Self powers
