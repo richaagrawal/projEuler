@@ -32,6 +32,7 @@ void prob42();			// Coded triangle numbers
 void prob43();			// Substring divisibility
 void prob45();			// Triangular, pentagonal and hexagonal
 void prob46();			// Goldbach's other conjecture
+void prob47();			// Distinct prime factors
 void prob48();			// Self powers
 void prob50();			// Consecutive prime sums
 void prob52();			// Permuted multiples
