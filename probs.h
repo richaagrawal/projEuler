@@ -34,6 +34,7 @@ void prob45();			// Triangular, pentagonal and hexagonal
 void prob46();			// Goldbach's other conjecture
 void prob47();			// Distinct prime factors
 void prob48();			// Self powers
+void prob49();			// Prime permutations
 void prob50();			// Consecutive prime sums
 void prob52();			// Permuted multiples
 void prob53();			// Combinatoric selection
