@@ -39,4 +39,5 @@ void prob49();			// Prime permutations
 void prob50();			// Consecutive prime sums
 void prob52();			// Permuted multiples
 void prob53();			// Combinatoric selection
+void prob55();			// Lychrel numbers
 void prob56();			// Powerful digital sum

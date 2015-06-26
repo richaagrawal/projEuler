@@ -5,7 +5,9 @@ using namespace std;
 
 bool isPrime(long no);
 
-bool palindrome(long no, int base);
+bool palindrome(long long no, int base);
+
+double getpalindromeD(double no);
 
 double factorial(double no);
 

@@ -13,7 +13,7 @@ bool isPrime(long no)
 	return true;
 }
 
-bool palindrome(long no, int base)
+bool palindrome(long long no, int base)
 {
 	vector<int> digits;
 	while (no > base - 1)
@@ -32,7 +32,24 @@ bool palindrome(long no, int base)
 	return true;
 }
 
-
+double getpalindromeD(double no)
+{
+	double palin = 0;
+	while (true)
+	{
+		palin *= 10;
+		palin += no;
+		no = floor(no / 10);
+		palin -= no * 10;
+		if (no < 10)
+		{
+			palin *= 10;
+			palin += no;
+			break;
+		}
+	}
+	return palin;
+}
 
 double factorial(double no)
 {
