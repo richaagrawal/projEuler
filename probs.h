@@ -43,4 +43,5 @@ void prob55();			// Lychrel numbers
 void prob56();			// Powerful digital sum
 void prob63();			// Powerful digit counts
 void prob79();			// Passcode derivation
+void prob92();			// Square digit chains
 void prob97();			// Large non-Mersenne primes
