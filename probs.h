@@ -41,6 +41,7 @@ void prob52();			// Permuted multiples
 void prob53();			// Combinatoric selection
 void prob55();			// Lychrel numbers
 void prob56();			// Powerful digital sum
+void prob59();			// XOR decryption
 void prob63();			// Powerful digit counts
 void prob79();			// Passcode derivation
 void prob92();			// Square digit chains
