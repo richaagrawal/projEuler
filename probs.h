@@ -42,6 +42,7 @@ void prob53();			// Combinatoric selection
 void prob55();			// Lychrel numbers
 void prob56();			// Powerful digital sum
 void prob57();			// Square root convergents
+void prob58();			// Spiral primes
 void prob59();			// XOR decryption
 void prob63();			// Powerful digit counts
 void prob79();			// Passcode derivation
