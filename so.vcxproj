@@ -79,6 +79,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="prob18_67.cpp" />
     <ClCompile Include="prob19.cpp" />
+    <ClCompile Include="prob206.cpp" />
     <ClCompile Include="prob22.cpp" />
     <ClCompile Include="prob23.cpp" />
     <ClCompile Include="prob24.cpp" />
