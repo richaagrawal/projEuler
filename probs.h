@@ -39,6 +39,7 @@ void prob49();			// Prime permutations
 void prob50();			// Consecutive prime sums
 void prob52();			// Permuted multiples
 void prob53();			// Combinatoric selection
+void prob54();			// Poker hands
 void prob55();			// Lychrel numbers
 void prob56();			// Powerful digital sum
 void prob57();			// Square root convergents
