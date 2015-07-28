@@ -46,6 +46,7 @@ void prob57();			// Square root convergents
 void prob58();			// Spiral primes
 void prob59();			// XOR decryption
 void prob63();			// Powerful digit counts
+void prob69();			// Totient maximum
 void prob79();			// Passcode derivation
 void prob92();			// Square digit chains
 void prob97();			// Large non-Mersenne primes

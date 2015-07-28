@@ -13,6 +13,26 @@ bool isPrime(long no)
 	return true;
 }
 
+void isPrimeSieve(bool arr[], int n)
+{
+	if (n < 2)
+		return;
+	for (int i = 0; i < n; i++)
+		arr[i] = true;
+	for (int i = 1; i < n; i++)
+	{
+		if (arr[i])
+		{
+			int k = 2;
+			while (k * (i + 1) <= n)
+			{
+				arr[k * (i + 1) - 1] = false; // minus 1 because index starts from 0.
+				++k;
+			}
+		}
+	}
+}
+
 bool palindrome(long long no, int base)
 {
 	vector<int> digits;
