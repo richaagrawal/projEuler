@@ -37,7 +37,6 @@ void prob47();			// Distinct prime factors
 void prob48();			// Self powers
 void prob49();			// Prime permutations
 void prob50();			// Consecutive prime sums
-void prob51();			// Prime digit replacements
 void prob52();			// Permuted multiples
 void prob53();			// Combinatoric selection
 void prob54();			// Poker hands
@@ -49,6 +48,7 @@ void prob59();			// XOR decryption
 void prob63();			// Powerful digit counts
 void prob69();			// Totient maximum
 void prob71();			// Ordered fractions
+void prob76();			// Counting summations
 void prob79();			// Passcode derivation
 void prob92();			// Square digit chains
 void prob97();			// Large non-Mersenne primes
