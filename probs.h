@@ -50,6 +50,7 @@ void prob69();			// Totient maximum
 void prob71();			// Ordered fractions
 void prob76();			// Counting summations
 void prob79();			// Passcode derivation
+void prob81();			// Path sum: Two ways
 void prob92();			// Square digit chains
 void prob97();			// Large non-Mersenne primes
 void prob206();			// Concealed squaress
