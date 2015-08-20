@@ -162,6 +162,9 @@
     <ClCompile Include="prob81.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="prob99.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="probs.h">
