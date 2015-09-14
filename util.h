@@ -7,7 +7,7 @@ using namespace std;
 
 bool isPrime(long no);
 
-void isPrimeSieve(bool arr[], int n);
+void isPrimeSieve(bool arr[], unsigned long long n);
 
 void getPrimeFac(int arr[], int N);
 

@@ -13,12 +13,13 @@ bool isPrime(long no)
 	return true;
 }
 
-void isPrimeSieve(bool arr[], int n)
+void isPrimeSieve(bool arr[], unsigned long long n)
 {
 	if (n < 2)
 		return;
 	for (int i = 0; i < n; i++)
 		arr[i] = true;
+	arr[0] = false;
 	for (int i = 1; i < n; i++)
 	{
 		if (arr[i])

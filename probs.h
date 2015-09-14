@@ -56,3 +56,5 @@ void prob97();			// Large non-Mersenne primes
 void prob99();			// Largest exponential
 void prob206();			// Concealed squares
 void prob357();			// Prime generating integers
+void prob387();			// Harshad numbers							// UNSOLVED
+void prob493();			// Under the rainbow						// UNSOLVED
