@@ -10,7 +10,5 @@ void prob493()
 
 	double wayOfChoosing = 7.0 * (1.0 - d60c20 / d70c20);
 
-	cout << "60 choose 20: " << fixed << d60c20 << endl;
-	cout << "70 choose 20: " << fixed << d70c20 << endl;
 	cout << setprecision(10) << "Ways to choose: " << fixed << wayOfChoosing << endl;
 }
